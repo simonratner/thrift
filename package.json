@@ -21,17 +21,17 @@
     { "mail": "dev@thrift.apache.org",
       "url": "https://issues.apache.org/jira/browse/THRIFT"
     },
-  "directories" : { "lib" : "./lib/thrift" },
-  "main": "./lib/thrift",
+  "directories" : { "lib" : "./lib/nodejs/lib/thrift" },
+  "main": "./lib/nodejs/lib/thrift",
   "engines": { "node": ">= 0.2.4" },
   "dependencies": {
     "node-int64": "~0.3.0",
-	"q": "1.0.x",
-    "nodeunit": "~0.8.0"
+    "q": "1.0.x"
   },
   "devDependencies": {
     "connect": "2.7.x",
-    "commander": "2.1.x"
+    "commander": "2.1.x",
+    "nodeunit": "~0.8.0"
   },
   "scripts": {
     "test" : "test/testAll.sh"
