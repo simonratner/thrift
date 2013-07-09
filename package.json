@@ -21,11 +21,13 @@
     { "mail": "dev@thrift.apache.org",
       "url": "https://issues.apache.org/jira/browse/THRIFT"
     },
-  "directories" : { "lib" : "./lib/thrift" },
-  "main": "./lib/thrift",
+  "directories" : { "lib" : "./lib/nodejs/lib/thrift" },
+  "main": "./lib/nodejs/lib/thrift",
   "engines": { "node": ">= 0.2.4" },
   "dependencies": {
-    "node-int64": "~0.3.0",
+    "node-int64": "~0.3.0"
+  },
+  "devDependencies": {
     "nodeunit": "~0.8.0"
   },
   "devDependencies": {
